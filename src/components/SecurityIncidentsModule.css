@@ -1,0 +1,47 @@
+/* SecurityIncidentsModule.css */
+
+.security-incidents-module {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.activity-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.activity-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.activity-item:hover {
+  transform: translateY(-5px);
+}
+
+.activity-timestamp {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.activity-details p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.activity-details p:first-child {
+  font-weight: bold;
+}
+
+.activity-details p:last-child {
+  color: #666;
+}

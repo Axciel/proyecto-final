@@ -1,0 +1,28 @@
+/* MainMenu.css */
+
+.main-menu {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .main-menu h2 {
+    margin-bottom: 20px;
+  }
+  
+  .main-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .main-menu li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .main-menu li:hover {
+    text-decoration: underline;
+  }
+  

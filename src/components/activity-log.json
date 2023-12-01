@@ -1,0 +1,43 @@
+[
+    {
+      "timestamp": "2023-11-29T12:00:00.000Z",
+      "user": "admin",
+      "action": "login",
+      "details": "El usuario admin ha iniciado sesión.",
+      "objectId": null,
+      "result": "success"
+    },
+    {
+      "timestamp": "2023-11-29T12:01:00.000Z",
+      "user": "admin",
+      "action": "create",
+      "details": "El usuario admin ha creado un nuevo usuario con el nombre de usuario \"user2\".",
+      "objectId": 2,
+      "result": "success"
+    },
+    {
+      "timestamp": "2023-11-29T12:02:00.000Z",
+      "user": "user2",
+      "action": "login",
+      "details": "El usuario user2 ha iniciado sesión.",
+      "objectId": null,
+      "result": "success"
+    },
+    {
+      "timestamp": "2023-11-29T12:03:00.000Z",
+      "user": "user2",
+      "action": "update",
+      "details": "El usuario user2 ha actualizado su perfil.",
+      "objectId": 2,
+      "result": "success"
+    },
+    {
+      "timestamp": "2023-11-29T12:04:00.000Z",
+      "user": "user2",
+      "action": "delete",
+      "details": "El usuario user2 ha eliminado un registro de su historial.",
+      "objectId": 3,
+      "result": "success"
+    }
+  ]
+  
